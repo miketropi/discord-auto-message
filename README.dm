@@ -9,4 +9,8 @@
 osascript -l JavaScript discord-auto-send-message.js
 ```
 
+* Lưu ý: trước khi run nhớ chuyển keyboard về English (để tiếng Việt đang bị lỗi)
+
+* Lưu ý: khi run `osascript -l JavaScript discord-auto-send-message.js` đường dẫn file `discord-auto-send-message.js` phải đúng, cách tốt nhất là bạn chỉ cần gõ `osascript -l JavaScript ` sau đó cầm file `discord-auto-send-message.js` kéo vào `terminal` sẽ tự động thêm đường dẫn file vào một cách chính xác.
+
 * Lưu ý: ở Mac setting, security & privacy, Accessibility, nhớ enable `Terminal` để script có thể chạy được
